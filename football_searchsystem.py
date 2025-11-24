@@ -1,9 +1,9 @@
 
 
-# ---------------------------------------------
+# 
 # FOOTBALL TOURNAMENT SEARCH SYSTEM
 # FIFA WORLD CUP & UEFA CHAMPIONS LEAGUE WINNERS
-# ---------------------------------------------
+# 
 
 # FIFA World Cup Winners (1930–2022)
 fifa_world_cup_winners = {1930: "Uruguay", 1934: "Italy", 1938: "Italy",
@@ -15,7 +15,7 @@ fifa_world_cup_winners = {1930: "Uruguay", 1934: "Italy", 1938: "Italy",
     2010: "Spain", 2014: "Germany", 2018: "France",
     2022: "Argentina"}
 
-# UEFA Champions League Winners (2000–2024)
+# UEFA Champions League Winners (2000–2025)
 ucl_winners = {2000: "Real Madrid", 2001: "Bayern Munich", 2002: "Real Madrid",
     2003: "AC Milan", 2004: "Porto", 2005: "Liverpool",
     2006: "Barcelona", 2007: "AC Milan", 2008: "Manchester United",
@@ -80,4 +80,5 @@ def main_menu():
             print(" Invalid option, try again!")
 
 main_menu()
+
 
